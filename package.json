@@ -1,0 +1,24 @@
+{
+  "name": "lambda-mjml-starter",
+  "version": "0.1.0",
+  "description": "This is a stater-kit for MJML and AWS Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocowchun/lambda-mjml-starter.git"
+  },
+  "keywords": [
+    "mjml",
+    "lambda",
+    "react"
+  ],
+  "author": "ocowchun <ocowchun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocowchun/lambda-mjml-starter/issues"
+  },
+  "homepage": "https://github.com/ocowchun/lambda-mjml-starter#readme"
+}
