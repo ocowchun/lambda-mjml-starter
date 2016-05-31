@@ -1,0 +1,9 @@
+
+{
+  "name": "mjml101",
+  "description": "send mail using mjml",
+  "memory": 128,
+  "timeout": 5,
+  "defaultEnvironment": "dev",
+  "environment": {}
+}
