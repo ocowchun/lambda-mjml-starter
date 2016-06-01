@@ -1,5 +1,8 @@
+var send = require('../../lib/send_hello.js');
+
 console.log('starting function')
 exports.handle = function(e, ctx, cb) {
-  console.log('processing event: %j', e)
-  cb(null, { hello: 'world' })
+  send().then(function(result) {
+    cb(null, result);
+  }).catch(cb)
 }

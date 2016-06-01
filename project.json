@@ -1,9 +1,15 @@
-
 {
   "name": "mjml101",
   "description": "send mail using mjml",
   "memory": 128,
   "timeout": 5,
   "defaultEnvironment": "dev",
-  "environment": {}
+  "handler": "lib.handle",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "clean": "rm -fr lib"
+  },
+  "environment": {
+    "BASE_PATH": "./"
+  }
 }
