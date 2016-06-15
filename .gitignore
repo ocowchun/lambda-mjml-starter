@@ -46,3 +46,5 @@ jspm_packages
 *.tfstate.backup
 
 infrastructure/dev/.terraform/modules/888064cee98565bc078fe9590a2671a7
+
+config.json
